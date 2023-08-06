@@ -1,0 +1,89 @@
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+  
+ body {
+    background: url("./ibagens\ do\ to-do\ list/plano-de-fundo-preto.png")
+ }
+
+ .container {
+        background-color: white;
+        width: 500px;
+        border-radius: 10px;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        
+ }
+ 
+ .input-task{
+    border:none;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+ }
+
+ .button-task {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgb(1, 20, 20);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 17px;
+    padding: 0px 15px;
+    float: right;
+    cursor: pointer;
+
+    
+ }
+
+ .button-task:hover{
+    opacity: 0.8;
+ }
+ .button-task:active {
+    opacity: 0.6;
+ }
+  
+ .list-task {
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+ }
+
+ .task {
+    background-color: rgba(207, 220, 231, 0.568);
+    box-shadow: 1px 4px 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+
+
+ }
+ img {
+    height: 23px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+ }
+
+ .task:hover img {
+    opacity: 1;
+ }
+
+ .done {
+    background-color: #9c2a1b;
+    text-decoration: line-through;
+ }
